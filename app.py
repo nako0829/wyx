@@ -4,6 +4,7 @@ import pickle
 import pandas as pd  # 确保导入 pandas 库
 import os
 # Load the model and scaler
+# trigger redeploy
 try:
     with open(r"logistic_Reg.pkl", 'rb') as f:
         model = pickle.load(f)
